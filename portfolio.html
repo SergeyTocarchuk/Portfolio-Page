@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Page</title>
+</head>
+<body>
+    <div id="top">
+        <header>
+            <nav class="cf">
+                <ul class="cf">
+                    <li class="hide-on-small">
+                        <a href="#myblog">MyBlog</a></li>
+                    <li>
+                        <a href="#education">Education</a></li>
+                    <li>
+                        <a href="#skills">Skills</a></li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a></li>
+                    <li>
+                        <a href="#contact">Contact</a></li>
+                </ul>
+                <a href='#' id='openup'>MyBlog</a>
+            </nav>
+        </header>
+        <div id="myblog" class="container">
+            <h1>My Portfolio</h1>
+            <h3>here are my projects on HTML / CSS.</h3>
+        </div>
+    </div>
+    <!--Education Section-->
+    <section class="edu-ski">
+        <div id="education" class="edu-col">
+            <h1>EDUCATION</h1>
+            <ul>
+                <li><strong>Dec-Jan 2020</strong> - HTML/css on FreeCodeCamp.</li>
+                <li><strong>February 2021</strong> - basics of JavaScript on FreeCodeCamp.</li>
+                <li><strong>March 2021</strong> - projetcs on HTML/css.</li>
+                <li><strong>April 2021</strong> - SQL and courses on UpCase: Mastering the Shell (iterm2, zsh, oh-my-zsh), Mastering Git.</li>
+                <li><strong>May-Jun 2021</strong> - Udemy Ruby on Rails course.</li>
+                <li><strong>July 2021 (week 1-2)</strong> - UpCase Trails: Intermediate Ruby on Rails, Advanced ActiveRecord Querying, Refactoring, Test-Driven Rails, Rails Testing Exercises etc.</li>
+                <li><strong>July 2021 (week 3-4)</strong> - Udemy courses: Algorithms and Data Structures.</li>
+                <li><strong>Aug-Sep 2021</strong> - 2x1week projects and 1x1month project.</li>
+            </ul>
+        </div>
+    <!--Skills Section-->
+        <div id="skills" class="ski-col">    
+            <h1>SKILLS</h1>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Javascript / jQuery</li>
+                <li>Ruby</li>
+                <li>SQL</li>
+                <li>Ruby on Rails</li>
+                <li>Chrome DevTools</li>
+                <li>GIT</li>
+            </ul>
+        </div>
+    </section>
+    <!--Portfolio Section-->
+    <section id="portfolio" class="gallery">
+        <h1>PORTFOLIO</h1>
+        <img src="pic/landing_page.png" class="img-1" alt="landing page">
+        <img src="pic/survey_form.png" class="img-2" alt="survey form">
+        <img src="pic/tribute_page.png" class="img-3" alt="tribute page">
+        <img src="pic/responsive_grid.png" class="img-5" alt="responsive grid gallery">
+        <img src="pic/tech_doc.png" class="img-4" alt="tech documentation page">
+    </section>
+    <!--Contact Section-->
+    <footer id="contact">
+        <div class="footer-grid">
+            <div class="cont-col">
+                <h1>CONTACT</h1>
+            </div>
+            <form class="form-col">
+                <div class="form-group">
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="form-control"
+                        placeholder="Name"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="e-mail"
+                        id="name"
+                        class="form-control"
+                        placeholder="e-mail"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="cell"
+                        id="name"
+                        class="form-control"
+                        placeholder="cell"
+                    />
+                    <input
+                        type="text"
+                        name="subject"
+                        id="name"
+                        class="form-control"
+                        placeholder="Subject"
+                        required
+                    />
+                    <textarea
+                        id="message"
+                        class="input-textarea"
+                        name="message"
+                        placeholder="Enter your message here ...">
+                    </textarea>
+                    <button
+                        type="submit"
+                        id="submit"
+                        class="submit-btn">Submit
+				    </button>
+                </div>
+            </form>
+        </div>
+        <div class="footer-btm">
+            <p>©2020 Sergey T.</p>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
